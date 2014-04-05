@@ -1,0 +1,18 @@
+$TTL	86400
+$ORIGIN darkness.fr.
+@ IN SOA SOL.darkness.fr. hostmaster.darkness.fr. (
+	2014040501		; serial (d. adams)
+	3H			; refresh
+	15M			; retry
+	1W			; expiry
+	1D )			; minimum
+
+ IN NS	SOL.darkness.fr.
+SOL 		IN A 192.168.20.1
+LUNA 		IN A 192.168.20.2
+CLIENT1 	IN A 192.168.20.11
+CLIENT2		IN A 192.168.20.100
+CLIENT3		IN A 192.168.20.101
+CLIENT4		IN A 192.168.20.102
+CLIENT5 	IN A 192.168.20.103
+CLIENT6		IN A 192.168.20.104

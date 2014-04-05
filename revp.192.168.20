@@ -1,0 +1,18 @@
+$TTL	86400
+$ORIGIN 20.168.192.IN-ADDR.ARPA. 
+@			 IN SOA	SOL.darkness.fr. hostmaster.darkness.fr. (
+					2014040709	; serial (d. adams)
+					3H		; refresh
+					15M		; retry
+					1W		; expiry
+					1D )		; minimum
+
+			 IN NS	SOL.darkness.fr.
+1	IN PTR SOL.darkness.fr.
+2	IN PTR LUNA.darkness.fr.
+11	IN PTR CLIENT1.darkness.fr.
+100	IN PTR CLIENT2.darkness.fr.
+101	IN PTR CLIENT3.darkness.fr.
+102	IN PTR CLIENT4.darkness.fr.
+103	IN PTR CLIENT5.darkness.fr.
+104	IN PTR CLIENT6.darkness.fr.
