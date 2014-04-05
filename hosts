@@ -1,0 +1,28 @@
+#
+# hosts		This file describes a number of hostname-to-address
+#		mappings for the TCP/IP subsystem.  It is mostly
+#		used at boot time, when no name servers are running.
+#		On small systems, this file can be used instead of a
+#		"named" name server.  Just add the names, addresses
+#		and any aliases to this file...
+#
+# By the way, Arnt Gulbrandsen <agulbra@nvg.unit.no> says that 127.0.0.1
+# should NEVER be named with the name of the machine.  It causes problems
+# for some (stupid) programs, irc and reputedly talk. :^)
+#
+
+# For loopbacking.
+127.0.0.1	localhost
+# This next entry is technically wrong, but good enough to get TCP/IP apps
+# to quit complaining that they can't verify the hostname on a loopback-only
+# Linux box.
+127.0.0.1	SOL.darkness.fr SOL
+192.168.20.1 	SOL.darkness.fr SOL
+#192.168.20.2	LUNA.darkness.fr LUNA
+#192.168.20.11	CLIENT1.darkness.fr CLIENT1
+#192.168.20.100	CLIENT2.darkness.fr CLIENT2
+#192.168.20.101	CLIENT3.darkness.fr CLIENT3
+#192.168.20.102	CLIENT4.darkness.fr CLIENT4
+#192.168.20.103	CLIENT5.darkness.fr CLIENT5
+#192.168.20.104	CLIENT6.darkness.fr CLIENT6
+# End of hosts.
