@@ -1,0 +1,18 @@
+$TTL	86400
+$ORIGIN toto.belzebuth.
+@ IN SOA sol.toto.belzebuth. hostmaster.toto.belzebuth. (
+	2014040801		; serial (d. adams)
+	3H			; refresh
+	15M			; retry
+	1W			; expiry
+	1D )			; minimum
+
+ IN NS	sol.toto.belzebuth.
+sol 		IN A 192.168.20.1
+luna 		IN A 192.168.20.2
+client1 	IN A 192.168.20.11
+client2		IN A 192.168.20.100
+client3		IN A 192.168.20.101
+client4		IN A 192.168.20.102
+client5 	IN A 192.168.20.103
+client6		IN A 192.168.20.104
